@@ -1,12 +1,19 @@
-[
+{
+  "notes": [
     {
-        "title":"Test Title",
-        "text":"Test text",
-        "id": "1"
+      "title": "Test Title",
+      "text": "Test text",
+      "id": "1"
     },
     {
-        "title": "Test Title Two",
-        "text": "Test text two",
-        "id": "2"
+      "title": "Test Title Two",
+      "text": "Test text two",
+      "id": "2"
+    },
+    {
+      "title": "Stanky leg",
+      "text": "Mission critical",
+      "id": "3"
     }
-]
+  ]
+}

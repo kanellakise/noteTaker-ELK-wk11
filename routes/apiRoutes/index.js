@@ -14,7 +14,8 @@ router.get('/notes', (req, res) => {
 
 //TODO: add 'router.post' to create a new note in db
 router.post('/notes', (req, res) => {
-    req.body.id = notes.length.toString();
+    idNum = notes.length + 1;
+    req.body.id = idNum.toString();
 
     console.log(req.body);
 
