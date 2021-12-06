@@ -10,8 +10,6 @@ router.get('/notes', (req, res) => {
     console.log(notes);
 });
 
-//TODO: GET statement to get a specific note to load into editor
-
 //TODO: add 'router.post' to create a new note in db
 router.post('/notes', (req, res) => {
     idNum = notes.length + 1;
@@ -28,5 +26,14 @@ router.post('/notes', (req, res) => {
 });
 
 //TODO(OPTIONAL): add 'router.delete' to delete a note in db
+// router.delete('/notes/:id'), findById, (req, res) => {
+//     const { id } = req.params;
+
+//     const projectIndex = findById(id);
+
+//     notes.splice(projectIndex, 1);
+
+//     return res.send();
+// }
 
 module.exports = router;
